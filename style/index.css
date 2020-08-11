@@ -1,1 +1,59 @@
 /* Add CSS styling here */
+
+h1{
+    background-color: indigo;
+    color:white;
+}
+header{
+    background-color: indigo;
+    color:white;
+    min-height: 7rem;
+    width: 100%;
+    margin:0;
+    padding:0;
+
+}
+nav{
+display:flex;
+justify-content: flex-start;
+background-color: indigo;
+width:100%;
+}
+nav a{
+    background-color:indigo;
+    color:white;
+    border:black solid 2px;
+    padding: 1%;
+}
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.stack{
+    display:flex;
+    justify-content: space-evenly;
+}
+.card{
+    padding:1%;
+}
+.card p{
+    text-align: center;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.jj{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+    }
+.main{
+    background-color: gold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: indigo;
+}
