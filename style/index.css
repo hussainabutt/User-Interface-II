@@ -13,8 +13,7 @@ header, body{
     width: 100%;
     margin:0;
     
-    
-}
+    }
 nav{
 display:flex;
 justify-content: flex-start;
@@ -26,13 +25,21 @@ nav a{
     text-decoration: none;
     background-color:#4A235A;
     color:antiquewhite;
-    border:black solid 2px;
+    border:#D2B4DE solid 2px;
     padding: 5px;
     transition: background-color 250ms, color 250ms;
 }
 nav a:hover{
-    background-color: antiquewhite;
+    background-color: #D2B4DE;
     color:#4A235A;
+}
+.home a{
+     border-radius: 15px 0 0 15px;
+    
+}
+.projects a{
+    border-radius: 0 15px 15px 0;
+    
 }
 *{
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -69,8 +76,8 @@ nav a:hover{
     transition: background-color 250ms, color 250ms;
     }
 .jj a:hover{
-    background-color: antiquewhite;
-        color:#4A235A;   
+    background-color: #4A235A;
+        color:#D2B4DE;   
 }
 .imgbox{
     margin:1rem;
@@ -91,9 +98,14 @@ nav a:hover{
     color:antiquewhite;
     border:black solid 2px;
     padding: 5px;
+    border-radius: 15px;
     transition: background-color 250ms, color 250ms;
 }
 .footer a:hover{
-    background-color: antiquewhite;
+    background-color: #D2B4DE;
     color:#4A235A;
+}
+
+@media (max-width: 800px){
+    
 }
