@@ -1,33 +1,42 @@
 /* Add CSS styling here */
 
 h1{
-    background-color: indigo;
-    color:white;
+    background-color: #4A235A;
+    color:antiquewhite;
+    padding:1% 0 0 1%;
+    margin:0%;
 }
-header{
-    background-color: indigo;
-    color:white;
+header, body{
+    background-color: #4A235A;
+    color:antiquewhite;
     min-height: 7rem;
     width: 100%;
     margin:0;
-    padding:0;
-
+    
+    
 }
 nav{
 display:flex;
 justify-content: flex-start;
-background-color: indigo;
+background-color: #4A235A;
 width:100%;
+padding:1% 0 0 1%;
 }
 nav a{
-    background-color:indigo;
-    color:white;
+    text-decoration: none;
+    background-color:#4A235A;
+    color:antiquewhite;
     border:black solid 2px;
-    padding: 1%;
+    padding: 5px;
+    transition: background-color 250ms, color 250ms;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color:#4A235A;
 }
 *{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-
+    text-decoration: none;
 }
 .stack{
     display:flex;
@@ -42,18 +51,49 @@ nav a{
 .intro{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 .jj{
     display:flex;
-    justify-content:flex-end;
+    justify-content:flex-start;
     flex-direction:column;
     }
-.main{
-    background-color: gold;
+ .jj a{
+    text-decoration: none;
+    border: 1px solid #4A235A;
+    border-radius: 15px;
+    width:6rem;
+    padding:1% 1% 1% 1%;
+    text-align: center;
+    color:antiquewhite;
+    transition: background-color 250ms, color 250ms;
+    }
+.jj a:hover{
+    background-color: antiquewhite;
+        color:#4A235A;   
 }
-footer{
-    display: flex;
-    justify-content: center;
-    background-color: indigo;
+.imgbox{
+    margin:1rem;
+}
+.main{
+    background-color: #D2B4DE;
+}
+.footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        background-color: #4A235A;
+    }
+.footer a{
+    text-decoration: none;
+    background-color:#4A235A;
+    color:antiquewhite;
+    border:black solid 2px;
+    padding: 5px;
+    transition: background-color 250ms, color 250ms;
+}
+.footer a:hover{
+    background-color: antiquewhite;
+    color:#4A235A;
 }
