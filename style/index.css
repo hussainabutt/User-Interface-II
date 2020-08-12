@@ -1,1 +1,158 @@
 /* Add CSS styling here */
+
+h1{
+    background-color: #4A235A;
+    color:antiquewhite;
+    padding:1% 0 0 1%;
+    margin:0%;
+}
+
+header, body{
+    background-color: #4A235A;
+    color:antiquewhite;
+    min-height: 7rem;
+    width: 100%;
+    margin:0;    
+    }
+header{
+    padding: 0 0 15px 0;
+}
+nav{
+display:flex;
+justify-content: flex-start;
+background-color: #4A235A;
+width:100%;
+padding:1% 0 0 1%;
+}
+nav a{
+    text-decoration: none;
+    background-color:#4A235A;
+    color:antiquewhite;
+    border:#D2B4DE solid 2px;
+    padding: 5px;
+    transition: background-color 250ms, color 250ms;
+}
+nav a:hover{
+    background-color: #D2B4DE;
+    color:#4A235A;
+}
+.home a{
+     border-radius: 15px 0 0 15px;
+    
+}
+.projects a{
+    border-radius: 0 15px 15px 0;
+    
+}
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.stack{
+    display:flex;
+    justify-content: space-evenly;
+}
+.card{
+    padding:1%;
+}
+.card p{
+    text-align: center;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.jj{
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    }
+ .jj a{
+    text-decoration: none;
+    border: 1px solid #4A235A;
+    border-radius: 15px;
+    width:8rem;
+    padding:1% 1% 1% 1%;
+    text-align: center;
+    color:antiquewhite;
+    transition: background-color 250ms, color 250ms;
+    }
+.jj a:hover{
+    background-color: #4A235A;
+        color:#D2B4DE;   
+}
+.imgbox{
+    margin:1rem;
+}
+.main{
+    background-color: #D2B4DE;
+}
+.footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        background-color: #4A235A;
+        width:100%
+    }
+.footer a{
+    text-decoration: none;
+    background-color:#4A235A;
+    color:antiquewhite;
+    border:#D2B4DE solid 2px;
+    padding: 5px;
+    border-radius: 15px;
+    transition: background-color 250ms, color 250ms;
+    margin: 0px 0px 15px 0px;
+}
+.footer a:hover{
+   background-color: #D2B4DE;
+    color:#4A235A;
+}
+
+@media (max-width: 800px){
+    header, section, footer{
+        width:85%;
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav, nav a, .home a, .projects a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0px;
+        }
+    nav a, .home a, .projects a{
+        width:10rem;
+    }
+    .stack{
+        display:flex;
+        flex-flow: row wrap;
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .jj {
+        align-items: center;
+        justify-content: center;
+    }
+    @media (max-width: 500px){
+        .imgbox img{
+            width:100%
+        }
+    }
+}
